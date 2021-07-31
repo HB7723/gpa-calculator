@@ -1,0 +1,65 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    
+}
+
+body{
+    margin: auto;
+    background: linear-gradient(to right,#e66465, #9198e5);
+}
+
+.main{
+    text-align: center;
+    line-height: 2.5;
+    display: block;
+    margin: 25px;
+}
+
+.add__button{
+    border: none;
+  background-color: white;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  box-shadow: 2px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.calculate__button > button{
+    border: none;
+  background-color: white;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  box-shadow: 2px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+select{
+    border: none;
+  border-radius: 2px;
+  width: 4rem;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+input{
+    border: none;
+  border-radius: 2px;
+  width: 3.4rem;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    transition: all 0.3s;
+}
